@@ -2,7 +2,7 @@
 
 Tested with Travis CI
 
-[![Build Status](https://travis-ci.org/bodgit/puppet-certbot.svg?branch=master)](https://travis-ci.org/bodgit/puppet-certbot)
+[![Build Status](https://travis-ci.com/bodgit/puppet-certbot.svg?branch=master)](https://travis-ci.com/bodgit/puppet-certbot)
 [![Coverage Status](https://coveralls.io/repos/bodgit/puppet-certbot/badge.svg?branch=master&service=github)](https://coveralls.io/github/bodgit/puppet-certbot?branch=master)
 [![Puppet Forge](http://img.shields.io/puppetforge/v/bodgit/certbot.svg)](https://forge.puppetlabs.com/bodgit/certbot)
 
