@@ -1,0 +1,55 @@
+{
+  "name": "bodgit-certbot",
+  "version": "1.0.0",
+  "author": "bodgit",
+  "summary": "Puppet Module for managing Certbot",
+  "license": "Apache-2.0",
+  "source": "https://github.com/bodgit/puppet-certbot",
+  "project_page": "https://github.com/bodgit/puppet-certbot",
+  "issues_url": "https://github.com/bodgit/puppet-certbot/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=4.6.0 <6.0.0"
+    }
+  ],
+  "tags": [
+    "certbot"
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">=4.13.0 <5.0.0"
+    },
+    {
+      "name": "bodgit/bodgitlib",
+      "version_requirement": ">=1.5.0 <3.0.0"
+    }
+  ]
+}
